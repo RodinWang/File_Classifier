@@ -2,13 +2,13 @@
 
 > This is a file classifier write in python.
 
-## Usage       
+## Feature
 
 - This Classifier can sperate file with different prefix and file extension.
 
   ![image-filelist.jpg](/img/image-filelist.jpg)
 
-## How to use
+## Usage
 
 - This Classifier needs to use the required file name format for classification.
 
