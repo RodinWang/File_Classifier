@@ -6,7 +6,7 @@
 
 - This Classifier can sperate file with different prefix and file extension.
 
-  ![image-20210429235720277](D:\_sourceCode\sourceTree\File_Classifier\img\image-filelist.jpg)
+  ![image-filelist.jpg](/img/image-filelist.jpg)
 
 ## How to use
 
