@@ -66,12 +66,12 @@ def main(argv):
     try:
         opts, args = getopt.getopt(argv, "hd:p:e:m:", ["help", "dir=", "prefix=", "extend=", "mode="])
     except getopt.GetoptError:
-        print('file_classification.py -d <directory> -p <file prefix> -e <file extend> -m <copy or move>')
+        print('python file_classification.py -d <directory> -p <file prefix> -e <file extend> -m <copy or move>')
         sys.exit(2)
 
     for (opt, arg) in opts:
         if opt == "-h":
-            print('file_classification.py -d <directory> -p <file prefix> -e <file extend>')
+            print('python file_classification.py -d <directory> -p <file prefix> -e <file extend> -m <copy or move>')
             sys.exit()
         elif opt in ('-d', '--dir'):
             path = arg
@@ -83,7 +83,7 @@ def main(argv):
             if arg == "copy" or arg == "move":
                 mode = arg
             else:
-                print('file_classification.py -d <directory> -p <file prefix> -e <file extend> -m <copy or move>')
+                print('python file_classification.py -d <directory> -p <file prefix> -e <file extend> -m <copy or move>')
                 sys.exit(2)
 
     file_classifier_with_date_prefix(path, file_prefix, file_extend, mode)
