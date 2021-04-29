@@ -29,11 +29,11 @@
   python file_classification.py -d <directory> -p <file prefix> -e <file extend> -m <copy or move>
   
   arguments:
-  	-h, --help			show the help message and exit.
-  	-d, --dir			the directory for classification. Default is current work directory.
-  	-p, --prefix		the file prefix going to classify. Default is ''.
-  	-e, --extend		the file extension going to classify. Default is 'jpg'.
-  	-m, --mode 			the operation mode while processing file, copy or move. default is copy mode.
+  	-h, --help          show the help message and exit.
+  	-d, --dir           the directory for classification. Default is current work directory.
+  	-p, --prefix        the file prefix going to classify. Default is ''.
+  	-e, --extend        the file extension going to classify. Default is 'jpg'.
+  	-m, --mode          the operation mode while processing file, copy or move. default is copy mode.
   ```
 
   
