@@ -36,5 +36,11 @@
   	-m, --mode          the operation mode while processing file, copy or move. default is copy mode.
   ```
 
+- Example:
+
+  ```
+  python file_classification.py -d ./photo/ -p IMG -e jpg -m move
+  ```
+
   
 
